@@ -1,0 +1,10 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/budza
+    username: postgres
+    password: dick
+spring:
+  servlet:
+    multipart:
+      max-file-size: 128KB
+      max-request-size: 128KB
